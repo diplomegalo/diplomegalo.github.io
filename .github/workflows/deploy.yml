@@ -14,13 +14,6 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-22.04
-    permissions:
-      contents: write
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
-    defaults:
-      run:
-        working-directory: website
     steps:
       - uses: actions/checkout@v3
 
