@@ -1,5 +1,6 @@
 ---
 slug: /
+sidebar_position: 1
 ---
 
 # Développement d'un projet IT

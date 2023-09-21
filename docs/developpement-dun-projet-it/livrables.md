@@ -1,14 +1,6 @@
 ---
-profils: management
-domaines: methodologie
-themes: librable
-tags:
-- solution
-- documentation/analyse
-- documentation/manuel
-- source
+sidebar_position: 2
 ---
-
 # Les livrables
 
 Le livrable représente la solution produite et élaborée sur base des demandes du client durant la phase d'implémentation d'un projet. Pour reprendre l'allégorie du bâtiment, il s'agit de la cabane, de la maison, de l'immeuble ou même encore du pont attendu par le maitre d'ouvrage.
