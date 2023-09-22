@@ -1,10 +1,5 @@
 ---
-profils: management
-domaines: methodologie
-themes: outils
-tags:
-- outils/développement
-- outils/suivi-projet
+sidebar_positon: 3
 ---
 # Les outils
 

@@ -1,12 +1,5 @@
 ---
-profils: management
-domaines: methodologie
-themes: langage
-tags:
- - langage/compile
- - langage/interprete
- - low-code
- - no-code
+sidebar_position: 4
 ---
 
 # Langages et systèmes informatiques
