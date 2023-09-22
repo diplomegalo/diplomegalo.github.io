@@ -20,6 +20,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'diplomegalo', // Usually your GitHub org/user name.
   projectName: 'diplomegalo.github.io', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
   trailingSlash: false,
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
