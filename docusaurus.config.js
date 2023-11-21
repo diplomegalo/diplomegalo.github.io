@@ -1,13 +1,12 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Diplomegalo Blog',
-  tagline: 'Simple is not easy, even you kiss it...',
+  title: 'Delsaut Pierre-Arnaud',
+  tagline: 'Parce que faire simple n\'est pas toujours facile !',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -20,6 +19,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'diplomegalo', // Usually your GitHub org/user name.
   projectName: 'diplomegalo.github.io', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
   trailingSlash: false,
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -56,21 +56,20 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Diplomegalo Blog',
+        title: 'Delsaut Pierre-Arnaud',
         logo: {
           alt: 'Diplomegalo',
-          src: 'img/logo.svg',
+          src: 'img/diplomegalo.png',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Développement d\'un projet IT',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/diplomegalo',
             label: 'GitHub',
             position: 'right',
           },
@@ -122,8 +121,8 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: prismThemes.github,
+        darkTheme: prismThemes.dracula,
       },
     }),
 };

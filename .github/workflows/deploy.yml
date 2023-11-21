@@ -1,15 +1,11 @@
-# .github/workflows/deploy.yml
-
 name: GitHub Pages
 
 on:
   push:
     branches:
-      - main
-      - develop
+      - master
     paths:
       - '.github/workflows/deploy.yml'
-  pull_request:
 
 jobs:
   deploy:
